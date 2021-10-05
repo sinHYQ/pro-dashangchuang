@@ -1,0 +1,88 @@
+/* 清除统一的默认样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* 商品比较头部 */
+
+.w1200 {
+    margin: 0 auto;
+    width: 1200px;
+    font-size: 12px;
+}
+
+.w1200 .w1200-nav-z {
+    padding: 12px 0;
+    height: 25px;
+    line-height: 25px;
+}
+
+.w1200-nav-z .w1200-nav-con-z .w1200-con-item-z {
+    position: relative;
+    float: left;
+    margin-right: 7px;
+}
+
+.w1200-nav-con-z .w1200-con-item-z a {
+    color: #555;
+}
+
+.w1200-nav-con-z .w1200-con-item-z i {
+    font-size: 12px;
+}
+
+.w1200-nav-z .w1200-nav-con-z span {
+    float: left;
+    color: #8c8c8c;
+}
+
+
+/* 比较的表格---基本信息对比 */
+
+.container-z .w1200 .container-warpper-z {
+    position: relative;
+}
+
+.container-warpper-z .container-comprare-z {
+    margin: 0;
+    border-top: 1px solid #ddd;
+    color: #666;
+    overflow: hidden;
+}
+
+.container-comprare-z .container-tabcon-z .tb-1-z {
+    margin-top: -1px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    border-top: none;
+    font-size: 14px;
+}
+
+.tb-1-z th {
+    background-color: #eef6fd;
+}
+
+.container-tabcon-z .tb-1-z tr:first-child {
+    background-color: #eee;
+}
+
+.tb-1-z tr th,
+.tb-1-z tr td {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+.container-tabcon-z .tb-1-z th {
+    padding-left: 30px;
+    width: 84px;
+    text-align: left;
+    color: #999;
+    font-weight: lighter;
+}

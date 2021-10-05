@@ -1,0 +1,214 @@
+/* 主要内容 */
+
+.content-s {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* banner背景  */
+
+.brand-banner-s {
+    overflow: hidden;
+}
+
+.brand-banner-s .brand-banner-wp-s {
+    width: 1920px;
+    text-align: center;
+    margin-left: -360px;
+}
+
+
+/* 图片上边的介绍  */
+
+.brand-main-s {
+    padding-top: 40px;
+}
+
+.brand-main-s .brand-title-s {
+    width: 300px;
+    margin: 0 auto;
+    border-top: 1px solid #d2d2d2;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.brand-main-s .brand-title-s span {
+    display: block;
+    width: 100px;
+    margin: -12px auto 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    background: #fff;
+}
+
+.brand-cate-s {
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.brand-cate-s a:first-child {
+    margin-left: 5px;
+}
+
+.brand-cate-s a.curr {
+    font-weight: bold;
+}
+
+.brand-cate a {
+    color: #555;
+    white-space: nowrap;
+}
+
+.brand-cate-s a.curr,
+.brand-cate-s a:hover {
+    color: #f43434;
+}
+
+.brand-cate-s .point {
+    margin-left: 10px;
+    margin-right: 6px;
+}
+
+
+/* 懒加载区域 */
+
+.brand-list-s {
+    margin-top: 40px;
+    margin-right: -10px;
+}
+
+.brand-list-s li {
+    width: 278px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    text-align: center;
+    border: 6px solid #E4E4E4;
+    float: left;
+}
+
+.brand-list-s li:hover {
+    border-color: #aaaaaa;
+}
+
+.brand-list-s li .img {
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
+}
+
+.brand-list-s li .brand_desc {
+    padding: 0 20px;
+    color: #fff;
+    position: absolute;
+    width: 238px;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    line-height: 24px;
+    z-index: 2;
+    font-size: 14px;
+    transition: all .5s ease;
+    overflow: hidden;
+}
+
+.brand-list-s li:hover .brand_desc {
+    height: 285px;
+}
+
+.brand-list-s li .brand_desc .tit {
+    font-size: 18px;
+    line-height: 36px;
+    padding-top: 40px;
+}
+
+.brand-list-s li .brand_desc_notic .tit {
+    padding-top: 90px;
+}
+
+.brand-list-s li .brand_desc .info {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.brand-list-s li .brand_desc .info p {
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+}
+
+.brand-list-s li .mask {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: #000;
+    opacity: .45;
+    transition: all .5s ease;
+}
+
+.brand-list-s li:hover .mask {
+    height: 285px;
+}
+
+.brand-list-s li .b-logo {
+    height: 57px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.brand-list-s li .slogan {
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-bottom: 30px;
+}
+
+.brand-list-s li .b-logo .follow {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    width: 80px;
+    height: 30px;
+    margin-left: -40px;
+    margin-top: -15px;
+    color: #fff;
+    background: #f43434;
+    line-height: 30px;
+    border-radius: 15px;
+    opacity: 0;
+}
+
+.brand-list-s li:hover .b-logo .follow {
+    opacity: 1;
+}
+
+.brand-list-s li .b-logo img {
+    height: 57px;
+    max-width: 260px;
+}
+
+.brand-list-s li:hover .b-logo img {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.brand-list-s li .b-logo .follow i {
+    vertical-align: -2px;
+    margin-right: 5px;
+}
+
+.footer-new {
+    margin-top: 1000px!important;
+}
+
+.brand-banner-s {
+    height: 300px!important;
+}

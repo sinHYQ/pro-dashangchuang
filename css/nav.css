@@ -1,0 +1,182 @@
+.nav-main {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid red;
+}
+
+.two-erji {
+    position: relative;
+    width: 232px;
+    height: 50px;
+    float: left;
+}
+
+.two-erji-hidden {
+    width: 232px;
+    height: 50px;
+    overflow: hidden;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.two-erji-show {
+    width: 232px;
+    height: 50px;
+    line-height: 50px;
+    background-color: red;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+}
+
+.two-erji .two-erji-play {
+    height: 500px;
+}
+
+.two-erji-hidden:hover {
+    height: 500px;
+}
+
+.two-ulList {
+    width: 232px;
+    height: 500px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 999;
+    opacity: 0.8;
+}
+
+.two-ulList li {
+    width: 100%;
+    padding: 15px 10px 0;
+    flex: auto;
+}
+
+.two-ulList li::before {
+    content: url(../images/xue-image/02-list.png);
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.two-ulListH {
+    background-color: black;
+}
+
+.two-ulList p a {
+    color: #fff;
+}
+
+.two-ulList span a {
+    color: rgb(173, 173, 173);
+}
+
+.two-olList {
+    position: absolute;
+    top: 50px;
+    left: 232px;
+    width: 968px;
+    min-height: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    display: none;
+    z-index: 3;
+}
+
+.two-olList-left {
+    width: 700px;
+    float: left;
+}
+
+.two-olList-left span {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(95, 79, 79);
+    color: #fff;
+}
+
+.two-olList-left p {
+    display: inline-block;
+}
+
+.two-olList-leftUp {
+    padding-bottom: 20px;
+}
+
+.two-olList-leftDown {
+    padding: 20px;
+    padding-top: 0;
+}
+
+.two-olList-leftDown>a {
+    color: #555;
+    display: inline-block;
+    width: 60px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.two-olList-leftDown p {
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 10px;
+}
+
+.two-olList-leftDown p>a {
+    padding: 0 10px;
+    color: #555;
+    font-size: 12px;
+    border-left: 1px solid #ccc;
+}
+
+.two-olList-right {
+    float: left;
+    width: 228px;
+    height: 500px;
+}
+
+.two-olList-right li {
+    float: left;
+    border: 1px solid rgb(241, 241, 241);
+    text-align: center;
+}
+
+.two-olList-right img {
+    width: 110px;
+}
+
+.page-change {
+    width: 800px;
+    height: 50px;
+    float: left;
+}
+
+.page-change ul {
+    width: 1000px;
+    height: 50px;
+}
+
+.page-change li {
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.page-change li a {
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    color: #555;
+}

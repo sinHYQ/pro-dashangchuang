@@ -1,0 +1,230 @@
+.footer-new{
+    width: 100%;
+    height:444px;
+    margin-top: 80px;
+}
+.footer-new  .footer-top{
+    width: 100%;
+    height: 80px;
+    padding: 24px 0px;
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+}
+.footer-new  .footer-top .top-text{
+    width: 1200px;
+    height: 32px;
+    margin: 0 auto;
+}
+.footer-new  .footer-top .top-text .server-list{
+    width: 900px;
+    height: 32px;
+    float: left;
+}
+.footer-new  .footer-top .top-text .server-list .list-item{
+    width: 180px;
+    height: 32px;
+    box-sizing: border-box;
+    float: left;
+}
+.footer-new  .footer-top .top-text .server-list .list-item .icon{
+    width: 32px;
+    height: 32px;
+    float: left;
+
+}
+.footer-new  .footer-top .top-text .server-list .list-item .icon1{
+    background: url(../images/liuimages/footer_new_icon.png) no-repeat;
+}
+.footer-new  .footer-top .top-text .server-list .list-item .icon2{
+    background: url(../images/liuimages/footer_new_icon.png) no-repeat -34px 0;
+}
+.footer-new  .footer-top .top-text .server-list .list-item .icon3{
+    background: url(../images/liuimages/footer_new_icon.png) no-repeat -68px 0;
+}
+.footer-new  .footer-top .top-text .server-list .list-item .icon4{
+    background: url(../images/liuimages/footer_new_icon.png) no-repeat -102px 0;
+}
+.footer-new  .footer-top .top-text .server-list .list-item .icon5{
+    background: url(../images/liuimages/footer_new_icon.png) no-repeat -136px 0;
+}
+.footer-new  .footer-top .top-text .server-list .list-item span{
+    width: 125px;
+    height: 60px;
+    overflow: hidden;
+    float: left;
+    font-size: 18px;
+    color: #888888;
+    margin-left: 12px;
+    margin-top: 2px;
+    border-left: 1px solid transparent;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.footer-new  .footer-top .top-text .server-contant{
+     width: 295px;
+     height: 32px;
+     float: right;
+}
+.footer-new  .footer-top .top-text .server-contant .contant-first{
+    width: 180px;
+    height: 32px;
+    line-height: 30px;
+    float: left;
+}
+.footer-new  .footer-top .top-text .server-contant .icon{
+    width: 22px;
+    height: 24px;
+    float: left;
+    margin-top: 5px;
+    background: url(../images/liuimages/footer_new_icon.png) no-repeat ;
+}
+.footer-new  .footer-top .top-text .server-contant .contant-first .icon1{
+    background-position: -3px -103px;
+}
+.footer-new  .footer-top .top-text .server-contant span{
+    width: 140px;
+    margin-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 30px;
+    float: left;
+    color: #262626;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+.footer-new  .footer-top .top-text .server-contant .contant-second .icon2{
+    background-position: -4px -138px;
+}
+.footer-new  .footer-top .top-text .server-contant .contant-second{
+    width: 115px;
+    height: 32px;
+    line-height: 30px;
+    float: left;
+}
+.footer-new  .footer-top .top-text .server-contant .contant-second span{
+    width: 80px;
+    height: 30px;
+    float: left;
+    margin: 0px 0px 0px 8px;
+}
+.footer-center{
+    width: 100%;
+    height: 189px;
+    background-color: #262626;
+}
+.footer-center .center-banner{
+    width: 1200px;
+    height: 189px;
+    margin: 0px auto;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #464646;
+}
+.footer-center .center-banner .left{
+    float: left;
+    width: 900px;
+    height: 128px;
+}
+.footer-center .center-banner .left .left-item{
+    float: left;
+    width: 170px;
+    padding-right: 10px;
+    height: 128px;
+}
+.footer-center .center-banner .left .left-item h3{
+    width: 170px;
+    height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-center .center-banner .left .left-item  ul{
+    width: 170px;
+    height: 84px;
+}
+.footer-center .center-banner .left .left-item  li{
+    width: 170px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    font-size: 13px;
+}
+.footer-center .center-banner .left .left-item  li a{
+    color: #ccc;
+}
+.footer-center .center-banner .left .left-item  li a:hover{
+    color: red;
+}
+.footer-center .center-banner .right{
+    width: 276px;
+    height: 128px;
+    float: right;
+}
+.footer-center .center-banner .right  .margin{
+    margin-right: 62px;
+}
+.footer-center .center-banner .right .right-item1{
+    float: left;
+    width: 104px;
+    height: 128px;
+    box-sizing: border-box;
+    padding: 2px;
+    background-color: #fff;
+}
+.footer-center .center-banner .right .right-item1 .code{
+    width: 104px;
+    height: 104px;
+}
+.footer-center .center-banner .right .right-item1 .code img{
+    width: 102px;
+    height: 102px;
+}
+.footer-center .center-banner .right .right-item1  .text{
+    width: 100%;
+    height: 20px;
+    background-color: #121212;
+    text-align: center;
+    color: #fff;
+}
+.footer-bot{
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+    padding: 30px 0 20px;
+    background-color: #262626;
+    box-sizing: border-box;
+}
+.bot-banner{
+    width: 1200px;
+    height: 125px;
+    margin: 0px auto;
+}
+.bot-banner .bot-p1{
+    width: 1200px;
+    height: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.bot-banner .bot-p1 a{
+  color: #888888;
+}
+.bot-banner .bot-p1 a:hover{
+    color: red;
+}
+.bot-banner .bot-p1 .spaer{
+    overflow: hidden;
+    margin: 0 17px;
+    width: 1px;
+    height: 11px;
+    background-color: #444;
+    display: inline-block;
+}

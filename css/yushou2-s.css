@@ -1,0 +1,157 @@
+/* 内容区域 */
+
+#content-s {
+    padding: 20px 0 0;
+}
+
+.preSaleNew-item-s {
+    width: 1200px;
+    overflow: hidden;
+}
+
+.preSaleNew-item-s .preSaleNewTime-s {
+    float: left;
+    width: 92px;
+    margin-right: 36px;
+}
+
+.preSaleNew-item-s .preSaleNewProduct-s {
+    float: left;
+    width: 1072px;
+}
+
+.preSaleNewTime-s .p-data {
+    width: 92px;
+    height: 92px;
+    background: url(../images/preSaleNewTime.png) 0 0 no-repeat;
+}
+
+.preSaleNewTime-s .row {
+    width: 3px;
+    background: #fef8c4;
+    margin: 0 auto;
+}
+
+.preSaleNewTime-s .p-data span {
+    display: block;
+    width: 92px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.preSaleNewTime-s .p-data strong {
+    display: block;
+    width: 92px;
+    height: 64px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #8f8f8f;
+    text-align: center;
+    line-height: 64px;
+}
+
+.preSaleNewProduct-s ul {
+    float: left;
+    width: 1084px;
+}
+
+.preSaleNewProduct-s ul li {
+    float: left;
+    border: 1px solid #dcdcdc;
+    margin: 0 12px 12px 0;
+}
+
+.preSaleNewProduct-s .p-warp {
+    width: 498px;
+    height: auto;
+    padding: 20px 15px;
+    float: left;
+}
+
+.preSaleNewProduct-s .p-img {
+    width: 196px;
+    height: 196px;
+    margin-right: 20px;
+    float: left;
+}
+
+.preSaleNewProduct-s .p-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.preSaleNewProduct-s .p-info {
+    float: left;
+    width: 282px;
+}
+
+.preSaleNewProduct-s .p-info .p-name {
+    font-size: 12px;
+}
+
+.preSaleNewProduct-s .p-item {
+    margin-top: 40px;
+    width: 100%;
+    float: left;
+    line-height: 24px;
+}
+
+.preSaleNewProduct-s .p-dibu {
+    float: left;
+    margin-top: 28px;
+}
+
+.preSaleNewProduct-s .p-name a {
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2b2b2b;
+    font-family: "microsoft yahei";
+    height: 72px;
+    overflow: hidden;
+}
+
+.preSaleNewProduct-s .p-price {
+    float: left;
+    color: #ec5051;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.preSaleNewProduct-s .appointment {
+    padding-left: 20px;
+    color: #767676;
+    float: left;
+}
+
+.preSaleNewProduct-s .appointment em {
+    color: #ec5051;
+}
+
+.preSaleNewProduct-s .p-dibu .time {
+    font-size: 12px;
+    color: #ffc33a;
+}
+
+.preSaleNewProduct-s .p-dibu .btn {
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 0 32px;
+    height: 28px;
+    border: 1px solid #ec5051;
+    background: #fff;
+    border-radius: 0;
+    color: #ec5051;
+    font-size: 12px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.footer-new {
+    margin-top: 1000px!important;
+}

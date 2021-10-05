@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css" />
+    <style>
+        .yanzheng {
+            position: relative;
+            width: 268px;
+            height: 38px;
+            line-height: 38px;
+            border: 1px solid #d2d2d2;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="" class="logo">
+            <img src="../images/user_login_logo.png" alt="" />
+        </a>
+        <a href="">
+            <img src="../images/login_logo_pic.png" alt="" />
+        </a>
+        <div class="header-right">
+            还没有账号<a href="register.html">免费注册</a>
+        </div>
+    </header>
+    <main>
+        <div class="main-layout">
+            <div class="loginform">
+                <div class="login-title">---用第三方账号直接登录---</div>
+                <div class="qqicon"></div>
+                <div class="login-title">---账号登录---</div>
+                <div class="loginbox">
+                    <form action="#" method="GET">
+                        <input type="text" name="uname" class="text uname" autocomplete="off" placeholder="用户名/手机"
+                            pattern="^1[3|4|5|7|8]\d{9}$" />
+                        <input type="password" name="pwd" class="text" autocomplete="off"
+                            placeholder="大写字母+小写字母+数字的8至15位"
+                            pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])[0-9a-zA-Z]{8,15}" />
+                        <div class="yanzheng">
+                            <input type="text" name="test" class="text2" autocomplete="off" placeholder="验证码" />
+                            <!-- <img src="captcha_verify.php?captcha=is_login&amp;0.6938796107509637" class="captcha_img fr"
+                                onclick="this.src='captcha_verify.php?captcha=is_login&amp;'+Math.random()" /> -->
+                        </div>
+                        <a href="../index.html"><input type="submit" value="登录" /></a>
+                    </form>
+                </div>
+                <a href="" class="backpwd">忘记密码？</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerlayout">
+            <p>
+                <a href="../index.html">首页</a>| <a href="#">隐私保护</a>|
+                <a href="#">联系我们</a>| <a href="#">免责条款</a>|
+                <a href="#">公司简介</a>| <a href="#">商家入驻</a>|
+                <a href="#">供应商入驻</a>|
+                <a href="#">意见反馈</a>
+            </p>
+            <p>
+                <a href="#">b2b2c</a>| <a href="#">多用户商城系统</a>|
+                <a href="#">商城系统</a>|
+                <a href="#">ecjia新零售</a>
+            </p>
+            <p>
+                <a href="#"> ICP备案证书号：沪ICP备14029880号-5 </a>
+            </p>
+            <p>
+                <a href="#">
+                    版权所有 &copy;2005-2021大商创,并保留所有权利，POWERED BY DSCMALL
+                </a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

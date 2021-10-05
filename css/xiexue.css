@@ -1,0 +1,539 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        ul li {
+            list-style-type: none;
+        }
+        
+        .nav-b {
+            margin-top: 78px;
+            height: 60px;
+            background-color: #333333;
+        }
+        
+        .nav-b ul {
+            width: 1200px;
+            height: 60px;
+            /* border: 1px solid red; */
+            margin: auto;
+            position: relative;
+        }
+        
+        .nav-b ul li {
+            float: left;
+            /* border: 1px solid red; */
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            font-size: 16px;
+            line-height: 60px;
+            margin-left: 60px;
+        }
+        
+        .nav-b ul li a {
+            color: #fff;
+        }
+        
+        .nav2-b {
+            width: 1200px;
+            height: 150px;
+            display: none;
+            background-color: #fff;
+            position: absolute;
+            top: 60px;
+            left: 60px;
+        }
+        
+        .nav2s-b {
+            margin: 20px;
+            font-size: 20px;
+            border-bottom: 1px solid #666;
+        }
+        
+        .nav2s1-b a {
+            font-size: 16px;
+            margin-top: 20px;
+            margin-right: 20px;
+            color: #666;
+        }
+        
+        .nav2s1-b a:hover {
+            color: red;
+        }
+        
+        .nav2-imgb span {
+            float: left;
+            margin-top: 20px;
+            margin-right: 20px;
+            width: 150px;
+            height: 50px;
+            /* border: 1px solid red; */
+        }
+        
+        .nav2-imgb img {
+            width: 150px;
+            height: 50px;
+        }
+        
+        .show-b {
+            width: 1200px;
+            height: 150px;
+            display: block;
+            position: absolute;
+            top: 60px;
+        }
+        
+        .bigimg-b {
+            height: 400px;
+            background-color: #f5f5f5;
+        }
+        
+        .img-b {
+            margin: 0 auto;
+            width: 1550px;
+            height: 450px;
+            background-image: url(../images/1490062791529079580.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+        /* <!-- 热销榜| 促销榜 --> */
+        
+        .list-b {
+            width: 1200px;
+            height: 50px;
+            /* border: 1px solid red; */
+            margin: 0 auto;
+            font-size: 20px;
+            position: relative;
+        }
+        
+        .list-b li {
+            color: #666;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        
+        .list-b li:hover {
+            color: red;
+        }
+        
+        .list1-b {
+            width: 1200px;
+            height: 400px;
+            margin: 0 auto;
+            position: absolute;
+        }
+        
+        .list1-b span {
+            float: left;
+            width: 230px;
+            height: 300px;
+            border: 1px solid #999;
+        }
+        
+        .list-1b {
+            width: 200px;
+            height: 180px;
+            margin: 12px;
+            /* border: 1px solid red; */
+            float: left;
+        }
+        
+        .list-1b img {
+            width: 200px;
+            height: 170px;
+        }
+        
+        .list-2b {
+            width: 50px;
+            height: 100px;
+            float: left;
+            font-size: 80px;
+            color: red;
+        }
+        
+        .list-3b {
+            float: right;
+            width: 160px;
+            height: 90px;
+            /* border: 1px solid red; */
+        }
+        
+        .list-3b p:nth-child(1) {
+            float: left;
+            width: 160px;
+            height: 60px;
+            /* border: 1px solid red; */
+            overflow: hidden;
+        }
+        
+        .list-3b p:nth-child(2) {
+            color: red;
+        }
+        
+        .list-3b p:nth-child(1) a {
+            font-size: 12px;
+            color: black;
+        }
+        
+        .list-3b p:nth-child(1) a:hover {
+            color: red;
+        }
+        /* <!-- 品牌旗舰 文字--> */
+        
+        .text1-b {
+            width: 1200px;
+            height: 30px;
+            margin: 0 auto;
+            font-size: 25px;
+            margin-top: 300px;
+        }
+        /* <!-- 品牌旗舰 左右移动 --> */
+        
+        .roll-b {
+            width: 1200px;
+            height: 70px;
+            margin: 20px auto;
+            border: 1px solid #999;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .roll-b ul {
+            width: 1800px;
+            height: 70px;
+            /* border: 1px solid red; */
+            position: absolute;
+        }
+        
+        .roll1-b {
+            width: 1150px;
+            height: 70px;
+            margin: 0 auto;
+            /* border: 1px solid red; */
+            position: relative;
+        }
+        
+        .roll1-b img {
+            border-right: 1px dashed #999;
+            width: 100px;
+            height: 70px;
+            margin-right: 20px;
+        }
+        
+        .roll-b ul li {
+            width: 100px;
+            height: 70px;
+            /* border: 1px solid red; */
+            float: left;
+        }
+        
+        .roll-b span:nth-child(1) {
+            background-color: #666;
+            width: 30px;
+            height: 70px;
+            font-size: 30px;
+            line-height: 70px;
+            position: absolute;
+            left: 0px;
+            z-index: 999;
+        }
+        
+        .roll-b span:nth-child(2) {
+            background-color: #666;
+            z-index: 999;
+            right: 0px;
+            width: 30px;
+            height: 70px;
+            font-size: 30px;
+            line-height: 70px;
+            position: absolute;
+        }
+        /* 今日推荐 */
+        
+        .text2-b {
+            width: 1200px;
+            height: 30px;
+            margin: 0 auto;
+            font-size: 25px;
+        }
+        
+        .text21-b {
+            margin: 0 auto;
+            width: 1200px;
+            height: 600px;
+        }
+        
+        .text21-b span {
+            float: left;
+            border: 1px solid #666;
+            width: 230px;
+            height: 300px;
+            margin-left: 5px;
+        }
+        
+        .text2-img {
+            width: 200px;
+            height: 170px;
+            /* border: 1px solid red; */
+            margin: 15px;
+            float: left;
+        }
+        
+        .text2-img img {
+            width: 200px;
+            height: 170px;
+        }
+        
+        .text5-b {
+            float: left;
+            width: 200px;
+            height: 40px;
+            /* border: 1px solid red; */
+            margin-left: 15px;
+            overflow: hidden;
+        }
+        
+        .text5-b a {
+            color: black;
+            font-size: 12px;
+        }
+        
+        .text5-b a:hover {
+            color: red;
+        }
+        
+        .text6-b {
+            float: left;
+            margin: 10px;
+            color: red;
+            font-size: 20px;
+            height: 22px;
+            width: 100px;
+            /* border: 1px solid red; */
+        }
+        /* 新品到家 */
+        
+        .xinpin-b {
+            margin: 10px auto;
+            width: 1200px;
+            height: 600px;
+            font-size: 25px;
+        }
+        
+        .xinpin-b span {
+            float: left;
+            border: 1px solid #666;
+            width: 230px;
+            height: 300px;
+            margin-left: 5px;
+        }
+        
+        .text3b-img {
+            width: 200px;
+            height: 170px;
+            /* border: 1px solid red; */
+            margin: 15px;
+            float: left;
+        }
+        
+        .text6-b {
+            float: left;
+            width: 200px;
+            height: 40px;
+            /* border: 1px solid red; */
+            margin-left: 15px;
+        }
+        
+        .text6-b a {
+            color: black;
+            font-size: 12px;
+        }
+        
+        .text7-b a:hover {
+            color: red;
+        }
+        
+        .text7-b {
+            float: left;
+            margin: 10px;
+            color: red;
+            font-size: 20px;
+            width: 100px;
+            height: 22px;
+            /* border: 1px solid red; */
+        }
+        /* 浏览历史 */
+        
+        .bro-b {
+            margin: 10px auto;
+            width: 1200px;
+            font-size: 25px;
+        }
+        
+        .bro1-b {
+            margin: 10px auto;
+            width: 1200px;
+            height: 600px;
+            font-size: 25px;
+        }
+        
+        .bro1-b span {
+            float: left;
+            border: 1px dashed #666;
+            width: 230px;
+            height: 300px;
+            margin-left: 5px;
+        }
+        
+        .bro1-img {
+            width: 200px;
+            height: 170px;
+            /* border: 1px solid red; */
+            margin: 15px;
+            float: left;
+        }
+        
+        .bro1-img img {
+            width: 200px;
+            height: 170px;
+        }
+        
+        .bro2-b {
+            float: left;
+            width: 200px;
+            height: 40px;
+            /* border: 1px solid red; */
+            margin-left: 15px;
+            overflow: hidden;
+        }
+        
+        .bro2-b a {
+            font-size: 12px;
+        }
+        
+        .bro2-b a:hover {
+            color: red;
+        }
+        
+        .bro3-b {
+            float: left;
+            margin-left: 50px;
+            margin-top: 20px;
+            color: red;
+            font-size: 17px;
+            width: 130px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            border: 1px solid red;
+        }
+        
+        .bro3-b:hover {
+            color: #fff;
+            background-color: red;
+        }
+        /* 跳楼 */
+        
+        .floor-b {
+            position: fixed;
+            left: 120px;
+            top: 20%;
+            opacity: 1;
+            z-index: 100001;
+            /*隐藏*/
+            /* display: none; */
+        }
+        
+        .tLoor-item {
+            position: relative;
+            width: 7epx;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            font-size: 12px;
+            border: 1px solid #e6e6e6;
+            color: #333;
+            margin-bottom: -2px;
+            background-color: #fafafa;
+            cursor: pointer;
+        }
+        
+        .floor-item span {
+            display: block;
+            height: 27px;
+            width: 64px;
+            padding: 0 5px;
+        }
+        /*活性*/
+        
+        .floor-b .floor-active-b {
+            background-color: #ff4040;
+            color: #fff;
+        }
+        /*鼠标悬停时，背景、字体会变色*/
+        
+        .floor-item:hover {
+            background-color: #ff4040;
+            color: #fff;
+        }
+        /*头部隐藏栏*/
+        
+        .attached-search-h {
+            position: fixed;
+            top: 0;
+        }
+        /* 跳楼 */
+        
+        .jump-b {
+            position: fixed;
+            top: 30%;
+            left: 80px;
+        }
+        
+        .jump-b span {
+            display: block;
+            width: 45px;
+            height: 50px;
+            /* background-color: #eeeeee; */
+            text-align: center;
+            margin-top: 3px;
+        }
+        
+        .hddbb {
+            display: block;
+            width: 45px;
+            height: 50px;
+            background-color: #eeeeee;
+            text-align: center;
+            margin-top: 3px;
+        }
+        
+        .hddbb:hover {
+            background-color: aqua;
+        }
+        
+        .jump-b .hddbb {
+            width: 45px;
+            height: 30px;
+            line-height: 30px;
+        }
+        
+        .exc1-b {
+            background-color: #eeeeee;
+        }
+        
+        .exc-b {
+            display: block;
+            background-color: aqua;
+        }
+        
+        .jump-b {
+            display: none;
+        }

@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+.img-le-l {
+    overflow: hidden;
+}
+
+.img-le-l img,
+.mid-l,
+.mid1-l {
+    float: left;
+}
+
+.mid-l {
+    width: 400px;
+}
+
+.mid1-l {
+    width: 450px;
+}
+
+.mid1-l img {
+    width: 148px;
+    height: 75px;
+}
+
+.ty-1200-l {
+    width: 1200px;
+    /* height: ; */
+    margin: 80px auto;
+}
+
+.ty-1200-l:nth-child(4) {
+    margin-top: 80px;
+}
+
+
+/* tab切换 */
+
+ul {
+    list-style-type: none;
+}
+
+.he-l h2,
+.rmtj-l h2 {
+    font-size: 21px;
+    line-height: 50px;
+    /* float: left */
+}
+
+.rmtj-l {
+    position: relative;
+    border-bottom: 3px solid #000;
+}
+
+.rmtj-l ul {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.rmtj-l ul li {
+    margin-left: 10px;
+    float: left;
+}
+
+.rmtj1-l ul li {
+    position: relative;
+}
+
+.rmtj1-l {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.rmtj1-l ul li div:nth-of-type(1) {
+    color: red;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.rmtj1-l ul li div:nth-child(3) {
+    width: 100%;
+    height: 38px;
+    font-size: 12px;
+}
+
+.rmtj1-l ul li div:nth-child(4) {
+    width: 200px;
+    height: 38px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 38px;
+    background-color: red;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.a {
+    display: none;
+}
+
+
+/* .rmtj1-l ul {
+    display: flex;
+} */
+
+.rmtj1-l ul li {
+    width: 158px;
+    height: 270px;
+    float: left;
+    border: 1px solid #999;
+    padding: 20px 20px 0 20px;
+}
+
+.he-l,
+.he1-l,
+.he2-l,
+.he3-l,
+.he4-l {
+    width: 1200px;
+    height: 50px;
+    border-bottom: 2px solid blue;
+    line-height: 50px;
+    position: relative;
+}
+
+.he-l ul,
+.he1-l ul,
+.he2-l ul,
+.he4-l ul {
+    width: 350px;
+    height: 50px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+}
+
+
+/* 图片 */
+
+.text-l img {
+    width: 166px;
+    height: 143px;
+}
+
+.con-r-l img {
+    width: 280px;
+}
+
+.he-l ul li,
+.he1-l ul li,
+.he2-l ul li,
+.he3-l ul li,
+.he4-l ul li {
+    width: 70px;
+    height: 48px;
+    text-align: center;
+    line-height: 50px;
+    /* border: 1px solid red; */
+    float: left;
+}
+.he3-l{
+    position: relative;
+}
+.he3-l ul {
+    width: 212px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+/* 内容 */
+
+.con {
+    margin-top: 20px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.con-le-l {
+    width: 280px;
+    height: 460px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.menu-l {
+    width: 200px;
+    height: 120px;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 30px;
+    left: 47px;
+}
+
+.menu-l a {
+    display: block;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    background: rgba(0, 0, 0, .4);
+    float: left;
+}
+
+.con-rig-l,
+.con-rig1-l,
+.con-rig2-l,
+.con-rig3-l,
+.con-rig4-l {
+    width: 920px;
+    height: 459px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 0px;
+    left: 280px;
+    display: none;
+}
+
+.top-con-l {
+    width: 280px;
+    height: 412px;
+    border: 1px solid #999;
+    /* position: absolute;
+    top: 0px;
+    left: 280px; */
+    padding: 24px;
+    float: left;
+}
+
+.con-r-l {
+    width: 280px;
+    height: 280px;
+    /* border: 1px solid red; */
+}
+
+.con-le-to-l {
+    margin-top: 20px;
+    /* height: 110px; */
+    /* border: 1px solid red; */
+    padding: 14px;
+    width: 250px;
+    font-size: 14px;
+    /* text-align: center; */
+    background-color: #F5FAE7;
+}
+
+.con-le-fs-l {
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid red; */
+}
+
+.con-le-fs-l span:nth-child(1) {
+    float: left;
+    font-size: 21px;
+    color: #f43434;
+    overflow: hidden;
+    line-height: 40px;
+}
+
+.con-le-fs-l a {
+    color: #000;
+    font-size: 12px;
+}
+
+.con-le-fs-l:nth-child(2) {
+    margin-top: 10px;
+}
+
+.con-le-fs-l span:nth-child(2) {
+    float: right;
+    background: #f43434;
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    line-height: 36px;
+    width: 110px;
+}
+
+
+/* .con-ul-l {
+    padding: 10px;
+} */
+
+.con-ul-l li {
+    display: block;
+    width: 166px;
+    height: 200px;
+    float: left;
+    border: 1px solid #999;
+    padding: 14px;
+    overflow: hidden;
+}
+
+.text-l {
+    width: 100%;
+    height: 143px;
+    border: 1px solid red;
+}
+
+.text-l1 {
+    width: 166px;
+    height: 20px;
+    border: 1px solid red;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+
+/* 页面显示*/
+
+.show-l {
+    display: block;
+    z-index: 99;
+}
+
+
+/* 鼠标进去效果 */
+
+.res-l {
+    border: 1px solid blue;
+    border-bottom: #fff solid 3px;
+}
+
+.text-l2 {
+    text-align: center;
+    color: red;
+}
+
+.adve ul li {
+    width: 120px;
+    height: 70px;
+    float: left;
+}
+
+.adve ul li a img {
+    max-width: 80%;
+    margin: 20px 0;
+}
+
+
+/* 随手购 */
+
+ul {
+    list-style-type: none;
+}
+
+.freego-n {
+    margin-top: 40px;
+}
+
+
+/* 标题部分 */
+
+.freego-title-n {
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 12px;
+}
+
+
+/* 内容部分 */
+
+.freego-content-n-c {
+    position: relative;
+}
+
+
+/* 前进后退按钮 */
+
+.prev-n,
+.next-n {
+    width: 30px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    background: rgba(0, 0, 0, .3);
+    z-index: 2;
+    text-align: center;
+    color: rgba(255, 255, 255, .8);
+    font-size: 20px;
+    line-height: 70px;
+    /* display: none; */
+}
+
+.prev-n {
+    left: 0;
+    display: none;
+}
+
+.next-n {
+    right: 0;
+    display: none;
+}
+
+.prev-n:hover,
+.next-n:hover {
+    background: rgba(0, 0, 0, .5);
+}
+
+
+/* 列表部分 */
+
+
+/* .freego-list {
+height: 8px;
+} */
+
+.freego-list ul {
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+.freego-list li {
+    float: left;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    background: #9f9f9f;
+    margin-right: 5px;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+
+/* 活性列表 */
+
+.freego-list .freego-active {
+    width: 20px;
+    background: #FC5F8D;
+}
+
+
+/* 内容部分 */
+
+.freego-content {
+    height: auto;
+    overflow: hidden;
+}
+
+
+/* 居中的盒子 */
+
+.freego-content-n {
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* ul列表 */
+
+.freego-content-list {
+    width: 3600px;
+    height: 350px;
+    left: 0px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+.freego-content-list li {
+    float: left;
+    width: 158px;
+    height: 308px;
+    border: 1px dashed #D1D1D1;
+    /* padding: 25px 20px 27px; */
+    padding: 20px;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 80px auto;
+}
+
+
+/* 跳楼 */
+
+.jump-l {
+    position: fixed;
+    top: 30%;
+    left: 80px;
+}
+
+.jump-l span {
+    display: block;
+    width: 45px;
+    height: 50px;
+    /* background-color: #eeeeee; */
+    text-align: center;
+    margin-top: 3px;
+}
+
+.hddb {
+    display: block;
+    width: 45px;
+    height: 50px;
+    background-color: #eeeeee;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.hddb:hover {
+    background-color: aqua;
+}
+
+.jump-l .hddb {
+    width: 45px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.exc1-l {
+    background-color: #eeeeee;
+}
+
+.exc-l {
+    display: block;
+    background-color: aqua;
+}
+
+.jump-l {
+    display: none;
+}

@@ -1,0 +1,307 @@
+/* 尚未登录title  */
+
+.pb {
+    background-color: rgba(0, 0, 0, .1);
+    padding: 8px;
+    position: fixed;
+    z-index: 100003;
+    width: 380px;
+    top: 0px;
+    left: 753px;
+}
+
+.pb .cboxContent {
+    background: #fff;
+}
+
+.pb-hd {
+    position: relative;
+    padding: 0 16px;
+    height: 31px;
+    line-height: 31px;
+    background: #f3f3f3;
+}
+
+.pb-hd .pb-x {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    z-index: 100000;
+    top: 10px;
+    right: 16px;
+    overflow: hidden;
+    width: 13px;
+    height: 13px;
+    background: url(../images/purebox/dialog.png) no-repeat;
+    font-size: 0;
+    text-indent: -99999px;
+}
+
+.pb-hd .pb-title {
+    font-weight: normal;
+    font-size: 14px;
+    color: #666;
+    font-family: "Microsoft YaHei";
+}
+
+
+/* 下边样式 */
+
+.pb-bd {
+    padding: 10px;
+    overflow: auto;
+    background: #fff;
+    position: relative;
+}
+
+#loginDialogBody .login-wrap {
+    height: auto;
+}
+
+.login-wrap {
+    position: relative;
+    z-index: 5;
+}
+
+#loginDialogBody .login-wrap .login-form {
+    top: 0;
+}
+
+.login-wrap .login-form {
+    float: right;
+}
+
+.login-form {
+    position: relative;
+    width: 350px;
+    z-index: 4;
+    background-color: #fff;
+}
+
+
+/* 第三方账号登录  */
+
+.login-form .coagent {
+    padding: 20px 40px 0;
+}
+
+.login-form .tit {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.login-form .tit h3 {
+    font-size: 16px;
+    color: #8c8c8c;
+    padding: 0 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.login-form .tit span {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 9px;
+    height: 1px;
+    border-bottom: 1px dashed #e5e5e5;
+}
+
+
+/* qq图像 */
+
+#loginDialogBody .coagent .coagent-warp {
+    margin-top: 15px;
+}
+
+.coagent .coagent-warp {
+    height: 36px;
+    /* margin-top: 20px; */
+    text-align: center;
+    font-size: 0;
+}
+
+.coagent .coagent-warp a:last-child {
+    margin-right: 0;
+}
+
+.coagent .coagent-warp a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+
+.qq-icon {
+    background-position: 0 0;
+}
+
+.qq-icon:hover {
+    background-position: -39px 0;
+}
+
+.third-party-icon {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: url(../images/login-icon.png) no-repeat;
+}
+
+
+/* 账号登录 */
+
+#loginDialogBody .login-box {
+    padding-top: 15px;
+}
+
+.login-box {
+    padding: 20px 40px 30px;
+}
+
+#loginDialogBody .login-box .tit {
+    padding-bottom: 5px;
+}
+
+.msg-wrap {
+    height: 25px;
+}
+
+#loginDialogBody .form .item:first-child {
+    margin-top: 0;
+}
+
+#loginDialogBody .form .item {
+    margin: 10px 0 0;
+}
+
+.form .item {
+    /* display: inline-block; */
+    display: block;
+    line-height: 25px;
+    width: 100%;
+}
+
+.form .item-info {
+    position: relative;
+    width: 268px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #d2d2d2;
+}
+
+.form .iconfont {
+    position: absolute;
+    color: #e8e8e8;
+    left: 10px;
+    top: 11px;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+}
+
+.icon-name:before {
+    content: "\e6a0";
+}
+
+.text {
+    outline: 0;
+    height: 28px;
+}
+
+.form .text {
+    border: 0;
+    width: 223px;
+    padding: 5px 10px 5px 35px;
+}
+
+.form .item:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.icon-password:before {
+    content: "\e644";
+}
+
+.icon-security:before {
+    content: "\e607";
+}
+
+.form .text-2 {
+    width: 111px;
+}
+
+.ui-label {
+    /* padding-left: 18px; */
+    background: url(../images/checkbox_12x12.png) 0 2px no-repeat;
+}
+
+.ui-checkbox {
+    padding-top: 0px;
+}
+
+.form .btn {
+    width: 270px;
+    height: 40px;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    outline: 0;
+}
+
+input.btn {
+    border-radius: 3px;
+}
+
+.sc-redBg-btn {
+    background: #f42424;
+    /* border-color: #f42424; */
+    color: #fff;
+}
+
+.btn {
+    padding: 0 10px;
+    /* height: 23px; */
+    line-height: 23px;
+    /* border: 1px solid #f42424; */
+    display: inline-block;
+    /* color: #f42424; */
+    /* background-color: #fff; */
+    margin-right: 5px;
+    /* font-size: 12px */
+    cursor: pointer;
+}
+
+#loginDialogBody .form .lie {
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+#loginDialogBody .form .lie .notpwd {
+    margin-top: 0;
+    display: block;
+}
+
+.gary {
+    color: #8c8c8c;
+}
+
+.red {
+    color: #f42828;
+}
+
+.fl {
+    float: left !important;
+}
+
+.fr {
+    float: right !important;
+}

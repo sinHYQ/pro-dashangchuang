@@ -1,0 +1,217 @@
+/* 左边导航区域 */
+
+.nav-s .gb-categorys-s {
+    width: 180px;
+}
+
+.nav-s .categorys-s,
+.attached-search-container-s .categorys-s {
+    position: relative;
+    float: left;
+    height: 40px;
+}
+
+.nav-s .gb-categorys-s .categorys-type-s {
+    background: #DD0909;
+}
+
+.dsc-zoom-s .categorys-s .categorys-type-s {
+    padding-bottom: 2px;
+}
+
+.nav-s .categorys-s .categorys-type-s,
+.attached-search-container-s .categorys-s .categorys-type-s {
+    background-color: #f42424;
+    text-align: center;
+    font-size: 0;
+    line-height: 40px;
+}
+
+.nav-s .gb-categorys-s .categorys-type-s a {
+    padding-left: 30px;
+    text-align: left;
+}
+
+.nav-s .categorys-s .categorys-type-s a,
+.attached-search-container-s .categorys-s .categorys-type-s a {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.nav-s .gb-categorys-s .categorys-tab-content-s {
+    background: #333;
+    height: 280px;
+}
+
+.categorys-tab-content-s .categorys-items-s {
+    position: relative;
+    height: 100%;
+}
+
+.nav-s .gb-categorys-s .categorys-tab-content-s .categorys-item-s {
+    border-bottom: 1px dotted #555;
+    height: 39px;
+    cursor: pointer;
+}
+
+.nav-s .gb-categorys-s .categorys-tab-content-s .item-content-s:hover {
+    background: #DD0909;
+}
+
+.nav-s .gb-categorys-s .categorys-tab-content-s .item-content-s {
+    float: left;
+    width: 134px;
+    padding: 8px 16px 8px 30px;
+}
+
+
+/* 字体图标样式 */
+
+.nav-s .gb-categorys-s .categorys-tab-content-s .iconfont {
+    float: left;
+    color: #fff;
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.categorys-tab-content-s .categorys-title-s {
+    float: left;
+    margin-left: 10px;
+    width: 173px;
+}
+
+.nav-s .gb-categorys-s .categorys-tab-content-s .categorys-title-s {
+    width: 106px;
+}
+
+.categorys-tab-content-s .categorys-title-s strong {
+    display: block;
+    font-weight: normal;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.categorys-tab-content-s .categorys-title-s strong a {
+    color: #fff;
+    font-size: 14px;
+}
+
+
+/* 中间导航区域  */
+
+.nav-s .nav-main-s li {
+    float: left;
+    margin-left: 38px;
+}
+
+.nav-s .nav-main-s li a {
+    font-size: 16px;
+    color: #555;
+    display: block;
+}
+
+.nav-s .nav-main-s li a:hover,
+.nav-s .nav-main-s li a.curr {
+    color: #e23435;
+}
+
+
+/* 内容区域 */
+
+.content-s {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* 背景区域  */
+
+.act-banner-s {
+    height: 280px;
+    overflow: hidden;
+}
+
+
+/* 团购区域 */
+
+.gb-crazy-s {
+    background: #F8F8F8;
+    padding: 40px 0;
+}
+
+
+/* 热门团购 */
+
+.gb-index-main-s {
+    padding: 40px 0 0;
+}
+
+
+/* 背景图 */
+
+.banner-s {
+    position: relative;
+    width: 100%;
+}
+
+.act-banner-wp-s {
+    width: 1920px;
+    text-align: center;
+    margin-left: -360px;
+}
+
+.content-s.act-banner-s img {
+    max-width: 1920px;
+    max-height: 500px;
+}
+
+
+/* 团购区域 */
+
+.gb-crazy-s .crazy-hd-s {
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+
+.gb-crazy-s .crazy-hd-s h2 {
+    float: left;
+    font-size: 28px;
+    padding-left: 40px;
+    background: url(../images/crazy-icon.png) no-repeat left center;
+}
+
+.gb-crazy-s .crazy-list-s {
+    margin-right: -10px;
+}
+
+
+/* 热门团购 */
+
+.gb-index-main-s h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.gb-index-list ul {
+    margin: 10px -10px 0 0;
+}
+
+.gb-btn-all-s {
+    display: block;
+    border: 1px solid #d2d2d2;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: all .2s;
+}
+
+.gb-btn-all-s:hover {
+    background: #d2d2d2;
+    color: #555;
+}
